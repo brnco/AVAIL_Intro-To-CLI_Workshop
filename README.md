@@ -2,9 +2,9 @@
 
 # Overview
 
-This single-day free webinar provides an introduction to the command line interface (CLI) and a few tools for digital preservation with a focus on audiovisual assets. It's hosted by the SMithsonian Library and Archives (SLA) Audiovisual Preservation Initiative (AVMPI).
+This single-day free webinar provides an introduction to the command line interface (CLI) and a few tools for digital preservation with a focus on audiovisual assets. It's hosted by the Smithsonian Library and Archives (SLA) Audiovisual Preservation Initiative (AVMPI).
 
-The presentation slides can be accessed at 🚧coming soon🚧
+The presentation slides can be accessed at this link: 🚧coming soon🚧
 
 # Table of Contents
 
@@ -50,7 +50,7 @@ moving files, verifying integrity of files and metadata
 
 ## Hour 3
 
-### Part 4 - Intro to Scripting
+### Part 4 - More Tools + Intro to Scripting
 
 workflow setup, loops
 
@@ -100,11 +100,11 @@ I will mostly be using a terminal-based text editor (i.e. a text editor that ope
 
 ## OS-specific installs
 
-### Mac Setup Instructions
+### MacOS
 
 Macs ship with an application named “Terminal” which is their default command line interface. It will work great for this webinar
 
-To install the tools/ software for this webinar, we will be using something called a “package manager.” Package managers help people manage their software without the use of “installers” like you might be used to, they’re very common on Linux nad in programmer spaces, generally.
+To install the tools/ software for this webinar, we will be using something called a “package manager.” Package managers help people manage their software without the use of “installers” like you might be used to, they’re very common on Linux and in programmer spaces, generally.
 
 For Macs, the packagae manager is named Homebrew and, once you have installed it, proceed to the [tools install section](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#install-tools)
 
@@ -129,9 +129,9 @@ If you don't have admin access on your Mac, you can still install Homebrew and t
 
 With either install method, you can check if your install was successful by opening Terminal and typing `brew help` - if you get help output, you're good; if you get an error, email me.
 
-### Windows setup instructions
+### Windows
 
-This workshop is based on the BASH programming language/ shell, which is not available by default on Windows as it is on Mac. Windows uses a proprietary command-line interface referred to as cmd.exe, originally released in 1993. It’s like bash in its operation but there are many, many syntactical and technical differences. Because it's Windows, and they can't do anything just one way, there's another application called PowerShell which is a bit more Bash-like. While I have experience scripting on Windows, it was how I initially learned most of this, those skills are not very sharp at this time and I just don’t think I can support you at the level I’d need to in this workshop.
+This workshop is based on the BASH programming language/ shell, which is not available by default on Windows as it is on Mac. Windows uses a proprietary command-line interface referred to as cmd.exe, originally released in 1993. It’s like bash in its operation but there are many, many syntactical and technical differences. Because it's Windows, and they can't do anything just one way, there's another application called PowerShell which is a bit more Bash-like. While I have experience scripting on Windows, those skills are not very sharp at this time and I just don’t think I can support you at the level I’d need to in this workshop.
 
 That being said, you are welcome to follow along in CMD/ PowerShell and make the modifications necessary, if you’d like.
 
@@ -163,4 +163,14 @@ MediaInfo creates structured technical metadata from a variety of audiovisual me
 
 #### WSL
 
-`apt-get install mediainfo`
+`apt install mediainfo`
+
+### BWF MetaEdit
+
+#### Mac
+
+`brew install bwfmetaedit`
+
+#### WSL
+
+`apt install bwfmetaedit`
