@@ -163,7 +163,7 @@ MediaInfo displays structured technical metadata from a variety of audiovisual m
 
 #### WSL
 
-`apt install mediainfo`
+`sudo apt install mediainfo`
 
 ### BWF MetaEdit
 
@@ -175,4 +175,4 @@ BWF MetaEdit displays and embeds metadata into a WAVE file's headers, per the Br
 
 #### WSL
 
-`apt install bwfmetaedit`
+`sudo apt install bwfmetaedit`
