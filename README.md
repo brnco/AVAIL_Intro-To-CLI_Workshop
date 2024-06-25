@@ -155,7 +155,7 @@ This software is installed entirely via the command line. Each command is writte
 
 ### MediaInfo
 
-MediaInfo creates structured technical metadata from a variety of audiovisual media filetypes, everything from sample rates to listing subtitle tracks. We won't be learning MediaInfo directly in this webinar, but I will be using it in a couple of examples. And, it's handy to have.
+MediaInfo displays structured technical metadata from a variety of audiovisual media filetypes, everything from sample rates to listing subtitle tracks
 
 #### Mac
 
@@ -166,6 +166,8 @@ MediaInfo creates structured technical metadata from a variety of audiovisual me
 `apt install mediainfo`
 
 ### BWF MetaEdit
+
+BWF MetaEdit displays and embeds metadata into a WAVE file's headers, per the Broadcast WAVE specification
 
 #### Mac
 
