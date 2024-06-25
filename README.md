@@ -1,26 +1,26 @@
-# AVMPI Intro To The Command Line Interface (CLI)
+# AVAIL Intro To The Command Line Interface (CLI)
 
 # Overview
 
-This single-day free webinar provides an introduction to the command line interface (CLI) and a few tools for digital preservation with a focus on audiovisual assets. It's hosted by the Smithsonian Library and Archives (SLA) Audiovisual Preservation Initiative (AVMPI).
+This single-day free webinar provides an introduction to the command line interface (CLI) and a few tools for digital preservation with a focus on audiovisual assets. It's hosted by the Smithsonian Library and Archives (SLA) Audiovisual Preservation Initiative (AVMPI) and Audiovisual Archivists Interest Lunch (AVAIL).
 
 The presentation slides can be accessed at this link: 🚧coming soon🚧
 
 # Table of Contents
 
-[Course Description](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#course-description)
+[Course Description](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#course-description)
 
-[Agenda](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#agenda)
+[Agenda](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#agenda)
 
-[Readings and Resources](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#readings--resources)
+[Readings and Resources](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshopp#readings--resources)
 
-[Tools list](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#command-line-software-discussed)
+[Tools list](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#command-line-software-discussed)
 
-[Install Instructions](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#install-instructions)
+[Install Instructions](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-instructions)
 
-  - [Mac / Homebrew](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#mac-setup-instructions)
-  - [Windows / WSL](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#windows-setup-instructions)
-  - [Tools](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#install-tools)
+  - [Mac / Homebrew](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#mac-setup-instructions)
+  - [Windows / WSL](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#windows-setup-instructions)
+  - [Tools](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-tools)
 
 # Course Description
 
@@ -28,7 +28,7 @@ With the ever-increasing scale and complexity of digital archival collections, a
 
 This 3-hour workshop will cover the basics of the command line interface (CLI) with a focus on its use in audiovisual archival workflows and digital preservation. The command line software discussed will help archivists navigate their terminals, find/ move/ rename digital objects, understand checksums and CRCs and introduce principles of scripting and automation for handling file data at scale.
 
-This is an introductory course and users with no programming or command line experience are welcome; any archivist who routinely moves files, verifies metadata across systems, or works with audiovisual materials will learn techniques to improve their efficiency and gain familiarity with systems and workflows which take advantage of CLI capabilities. Users don't need to have administrative privileges or the ability to install software on their local machines in order to participate. For users who can install software on their machines, there will be office hours prior to the workshop to go over any questions that arise as part of the setup (and instructions are provided [at this link](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#install-instructions)).
+This is an introductory course and users with no programming or command line experience are welcome; any archivist who routinely moves files, verifies metadata across systems, or works with audiovisual materials will learn techniques to improve their efficiency and gain familiarity with systems and workflows which take advantage of CLI capabilities. Users don't need to have administrative privileges or the ability to install software on their local machines in order to participate. For users who can install software on their machines, there will be office hours prior to the workshop to go over any questions that arise as part of the setup (and instructions are provided [at this link](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-instructions)).
 
 # Agenda
 
@@ -106,7 +106,7 @@ Macs ship with an application named “Terminal” which is their default comman
 
 To install the tools/ software for this webinar, we will be using something called a “package manager.” Package managers help people manage their software without the use of “installers” like you might be used to, they’re very common on Linux and in programmer spaces, generally.
 
-For Macs, the packagae manager is named Homebrew and, once you have installed it, proceed to the [tools install section](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#install-tools)
+For Macs, the packagae manager is named Homebrew and, once you have installed it, proceed to the [tools install section](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-tools)
 
 #### Install Homebrew
 
@@ -139,7 +139,7 @@ Otherwise, we’re going to install Bash on your Windows machine, through the Wi
 
 With WSL installed, we will then use the Ubuntu Linux package manager, named apt, to install software.
 
-Once you have installed WSL, proceed to the [tools install section](https://github.com/brnco/AVMPI_Intro-To-CLI_Workshop#install-tools)
+Once you have installed WSL, proceed to the [tools install section](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-tools)
 
 #### Install Windows Subsystem for Linux (WSL)
 
