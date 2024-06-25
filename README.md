@@ -38,7 +38,7 @@ This is an introductory course and users with no programming or command line exp
 
 what the command line is, what we can do with it, why it matters
 
-## Part 2 - Intro to Commands
+### Part 2 - Intro to Commands
 
 basic structures, navigation, inputs & outputs
 
