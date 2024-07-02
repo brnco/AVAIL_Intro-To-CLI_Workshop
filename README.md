@@ -131,7 +131,7 @@ With either install method, you can check if your install was successful by open
 
 ### Windows
 
-This workshop is based on the BASH programming language/ shell, which is not available by default on Windows as it is on Mac. Windows uses a proprietary command-line interface referred to as cmd.exe, originally released in 1993. It’s like bash in its operation but there are many, many syntactical and technical differences. Because it's Windows, and they can't do anything just one way, there's another application called PowerShell which is a bit more Bash-like. While I have experience scripting on Windows, those skills are not very sharp at this time and I just don’t think I can support you at the level I’d need to in this workshop.
+This workshop is based on the BASH programming language/ shell, which, until recently, was not available by default on Windows as it was on Mac. Windows used a proprietary command-line interface referred to as cmd.exe, originally released in 1993. It’s like bash in its operation but there are many, many syntactical and technical differences. Because it's Windows, and they can't do anything just one way, there's another application called PowerShell which is a bit more Bash-like. While I have experience scripting on Windows, those skills are not very sharp at this time and I just don’t think I can support you at the level I’d need to in this workshop.
 
 That being said, you are welcome to follow along in CMD/ PowerShell and make the modifications necessary, if you’d like.
 
@@ -140,6 +140,12 @@ Otherwise, we’re going to install Bash on your Windows machine, through the Wi
 With WSL installed, we will then use the Ubuntu Linux package manager, named apt, to install software.
 
 Once you have installed WSL, proceed to the [tools install section](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-tools)
+
+#### Check if WSL is already installed
+
+Use Windows Search (hit the Windows key on your keyboard), type `wsl` and hit enter. You should see a box pop up, this is cmd.exe starting WSL (sorry for the alphabet soup).
+
+In a few seconds, you should see a prompt that looks like this `brnco@CHM3083:/mnt/c/WINDOWS/system32$` but with your login info. If you see that, great, you have WSL up and running! Otherwise, see below for official Microsoft documentation.
 
 #### Install Windows Subsystem for Linux (WSL)
 
