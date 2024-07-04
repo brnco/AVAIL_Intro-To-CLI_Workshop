@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>😎 DPOE-N Webinar: Intro to CLI</title>
+        <title>😎 AVAIL Workshop: Intro to CLI</title>
         <link rel="stylesheet" href="reveal.js/dist/reset.css">
         <link rel="stylesheet" href="reveal.js/dist/reveal.css">
         <link rel="stylesheet" href="reveal.js/dist/theme/materialocean.css" id="theme">
@@ -86,13 +86,14 @@
             <div class="slides">
                 <section style="text-align:center;'">
                     <h1>Intro to the Command Line Interface</h1><br>
-                    <h3>DPOE-N | 2022-05-04</h3><br>
+                    <h3>AVAIL | 2024-07-16</h3><br>
                     <h5>with Brendan Coates (he|his)</h5><br>
                 </section>
                 <section style="text-align:center;">
                     <h1>About Me</h1><br>
                     gardener, technobabbler, LATU member<br><br>
-                    archivist specializing in AV and Oral Histories
+                    archivist specializing in workflow automation,<br>
+                    AV and Oral Histories
                 </section>
                 <section>
                     <h1>Agenda</h1><br><br>
@@ -100,53 +101,26 @@
                     </section>
                     <section>
                         <h3>Part 1</h3>
-                        <h3>History, Context, Objectives</h3><br>
-                        12pm-12:50pm EDT | 9am-9:50am PDT<br><br>
-                        Overview of the command line<br>
-                        Basic command line use<br>
-                        10min break
+                        <h3>Overview + Intro To Commands</h3><br>
+                        10am - 11am EDT<br><br>
+                        history and context of CLI<br>
+                        basic command line use
                     </section>
                     <section>
                         <h3>Part 2</h3>
-                        <h3>Intro to Commands</h3><br>
-                        1pm-2pm EDT | 10am-11am PDT<br><br>
-                        System info<br>
-                        navigation<br>
-                        inputs and outputs
-                    </section>
-                    <section>
-                        <h3>LUNCH</h3><br>
-                        2pm-3pm EDT | 11am-12pm PDT
-                    </section>
-                    <section>
-                        <h3>Part 3</h3>
                         <h3>CLI Tools for DigiPres</h3><br>
-                        3pm-3:50pm EDT | 12pm-12:50pm PDT<br><br>
-                        file movement, rsync<br>
-                        checksums, Bagit<br>
+                        11am-11:50pm EDT<br><br>
+                        moving files<br>
+                        checksums<br>
                         10 minute break
                     </section>
                     <section>
-                        <h3>Part 4</h3>
-                        <h3>Intro to Scripting</h3><br>
-                        4pm-5pm EDT | 1pm-2pm PDT<br><br>
-                        setup, principles<br>
-                        command sequences, loops<br>
-                        managing scripts
+                        <h3>Part 3</h3>
+                        <h3>More Tools + Scripting</h3><br>
+                        12pm - 1pm EDT<br><br>
+                        mediainfo, bwfmetaedit<br>
+                        workflows and loops
                     </section>
-                </section>
-                <section>
-                    <h1>Overview</h1><br>
-                    What are we doing here?<br>
-                    What is "open source" - how is it relevant?<br>
-                    Weren't those readings cool?
-                </section>
-                <section>
-                    <h1>Introductions</h1>
-                    <h3>Breakout Rooms</h3><br>
-                    What's your name/ pronouns/ location?<br>
-                    What do you do for fun? For work?<br>
-                    What's 1 thing that brought you here?
                 </section>
                 <section>
                     <h2>What is the command line?</h2>
@@ -199,7 +173,7 @@
                             </iframe>
                        </section>
                        <section>
-                            <h2>How To Brake</h2>
+                            <h2>Stopping A Command</h2>
                             <div class="twoColContainer">
                                 <div class="r-stack colLCLI">
     			                    <div class="fragment fade-in-then-out">
@@ -208,6 +182,7 @@
                                         <code>Ctl+c</code><br>
                                         Stop process:<br>
                                         <code>Ctl+z</code><br>
+                                        <code>fg</code>to resume
                                 </div>
     			                    <div class="fragment fade-in-then-out">
                                         <h3>Quit/ Exit</h3>
@@ -244,6 +219,10 @@
                                         use exact error text<br>
                                         be mindful of dates
                                     </div>
+                                    <div class="fragment fade-in-then-out">
+                                        <h3>Chat GPT</h3>
+                                        ask it: "what does<br>
+                                        this code do?"
                                 </div>
                             <div class="colRCLI">
                             <iframe
@@ -321,16 +300,9 @@
                         </div>
                 </section>
                 <section>
-                    <h2>Users & Permissions</h2><br>
+                    <h2>Permissions</h2><br>
                     <div class="twoColContainer">
                       <div class="r-stack colLCLI">
-                        <div id="id_nG"class="fragment fade-in-then-out">
-                          <h3>id</h3>
-                          display user info<br><br>
-                          flags:<br>
-                          -n = name<br>
-                          -G = group
-                      </div>
                       <div id="sudo" class="fragment fade-in-then-out">
                           <h3>sudo</h3>
                           "super user do"<br>
@@ -357,11 +329,6 @@
                 <h2>I/O, Redirection</h2><br>
                 <div class="twoColContainer">
                      <div class="r-stack colLCLI">
-                      <div class="fragment fade-in-then-out">
-                        <h3>prequel</h3>
-                        "everything is a file"<br>
-                        ...in linux
-                      </div>
                        <div id="echo" class="fragment fade-in-then-out">
                          <h3>echo</h3>
                          print to terminal<br>
@@ -376,7 +343,7 @@
                         "standard error" = again, terminal
                       </div>
                       <div id="pipes" class="fragment fade-in-then-out">
-                        <h3>pipes</h3>
+                        <h3>pipe</h3>
                         send output to command<br>
                         common uses:<br>
                         tail<br>
@@ -384,7 +351,7 @@
                         grep
                       </div>
                       <div id="redirects" class="fragment fade-in-then-out">
-                        <h3>redirects</h3>
+                        <h3>redirect</h3>
                         send output to file<br>
                         cmd > /dev/null<br>
                         cmd >> log.txt
@@ -392,8 +359,7 @@
                       <div id="ampersand" class="fragment fade-in-then-out">
                           <h3>&&</h3>
                           sequence commands<br>
-                          only runs cmd2 IF<br>
-                          cmd1 successful
+                          runs cmd2 IF cmd1 ok
                       </div>
                      </div>
               <div class="colRCLI">
@@ -406,10 +372,6 @@
                 </iframe>
                 </div>
               </div>
-            </section>
-            <section>
-              <h1>lunch</h1>
-              see you in an hr!
             </section>
             <section>
               <h1>CLI for DigiPres</h1>
@@ -519,28 +481,6 @@
             </div>
           </div>
           </section>
-          <section>
-            <h1>BagIt</h1>
-            <section>
-            <div class="twoColContainer">
-              <div class="colL">
-                Library of Congress + IETF standard<br>
-                for folder architecture<br><br>
-                supports robust verification<br>
-                of package contents + integrity
-              </div>
-              <div class="colR">
-                <img src="https://raw.githubusercontent.com/brnco/DPOE-N-Workshop_IntroCLI-AVTools/main/images/myfirstbag.png">
-              </div>
-            </div>
-          </section>
-            <section>
-              <h4>grabbags</h4>
-              wrapper for bagit-python<br>
-              maintained by AMIA OSC<br>
-              exposes bagit-python to CLI
-            </section>
-          </section>
             <section>
             <h2>Scripting</h2>
             <div class="twoColContainer">
@@ -556,7 +496,6 @@
                  loop thru directory
                </div>
               </div>
-              <!--</div>-->
              <div class="colRCLI">
               <iframe
                src="https://player.twitch.tv/?channel=brnc0&parent=brnco.github.io"
@@ -588,6 +527,7 @@
                 plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
             });
         </script>
+        <!--
         <script>
             console.log("here1");
             cmdwrap_pre = '<div class="example_command">';
@@ -668,5 +608,6 @@
                     $(".example_command").remove();
             });
         </script>
+        -->
     </body>
 </html>
