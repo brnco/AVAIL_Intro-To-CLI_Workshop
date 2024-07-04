@@ -4,7 +4,7 @@
 
 This single-day free webinar provides an introduction to the command line interface (CLI) and a few tools for digital preservation with a focus on audiovisual assets. It's hosted by the Smithsonian Library and Archives (SLA) Audiovisual Preservation Initiative (AVMPI) and Audiovisual Archivists Interest Lunch (AVAIL).
 
-The presentation slides can be accessed at this link: 🚧coming soon🚧
+The presentation slides can be accessed at (this link)[https://brnco.github.io//AVAIL_Intro-To-CLI_Workshop/webinar.html]
 
 # Table of Contents
 
