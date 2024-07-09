@@ -6,6 +6,8 @@ This single-day free webinar provides an introduction to the command line interf
 
 The presentation slides can be accessed at [this link](https://brnco.github.io//AVAIL_Intro-To-CLI_Workshop/webinar.html)
 
+The test files can be accessed at [this link](https://drive.google.com/drive/folders/11W0r8YrGhkE_wecHo-pMPR-nBiLBEkLS?usp=drive_link)
+
 # Table of Contents
 
 [Course Description](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#course-description)
