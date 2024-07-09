@@ -8,22 +8,6 @@ The presentation slides can be accessed at [this link](https://brnco.github.io//
 
 The test files can be accessed at [this link](https://drive.google.com/drive/folders/11W0r8YrGhkE_wecHo-pMPR-nBiLBEkLS?usp=drive_link)
 
-# Table of Contents
-
-[Course Description](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#course-description)
-
-[Agenda](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#agenda)
-
-[Tools Discussed](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#Command-Line-Software-Discussed)
-
-[Readings and Resources](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#readings--resources)
-
-[Install Instructions](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-instructions)
-
-  - [Mac / Homebrew](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#mac-setup-instructions)
-  - [Windows / WSL](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#windows-setup-instructions)
-  - [Tools](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-tools)
-
 # Course Description
 
 With the ever-increasing scale and complexity of digital archival collections, archivists need to adapt their tools and workflows; while every institutional context is different, there are often opportunities to employ open source and command line tools to meet these challenges. Among the many benefits of utilizing the command line, the two most immediate tend to be: increased reliability of processes and more interesting work for archivists. 
