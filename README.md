@@ -14,9 +14,9 @@ The test files can be accessed at [this link](https://drive.google.com/drive/fol
 
 [Agenda](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#agenda)
 
-[Readings and Resources](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshopp#readings--resources)
+[Tools Discussed](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#Command-Line-Software-Discussed)
 
-[Tools list](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#command-line-software-discussed)
+[Readings and Resources](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#readings--resources)
 
 [Install Instructions](https://github.com/brnco/AVAIL_Intro-To-CLI_Workshop#install-instructions)
 
@@ -87,10 +87,6 @@ These tools include:
 [Man Pages](https://en.wikipedia.org/wiki/Man_page) - the Wikipedia page for "man pages" aka manual pages, describing the history and use of manual pages in the command line
 
 # Install instructions
-
-## Test Files
-
-Use this link 🚧coming soon🚧 to download a set of test files that you'll use during the webinar 
 
 ## Text Editor
 
