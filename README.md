@@ -141,6 +141,14 @@ This section assumes that you have completed the above steps to install Homebrew
 
 This software is installed entirely via the command line. Each command is written on its own line and will appear formatted `like this`. Type the command in exactly as you see it here and press enter after each command.
 
+### MediaArea Repository
+
+You may need to link your package manager to the repository which hosts MediaArea's software releases. To do so, type the following command into your temrinal:
+
+`wget https://mediaarea.net/repo/deb/repo-mediaarea_1.0-24_all.deb && dpkg -i repo-mediaarea_1.0-24_all.deb && apt-get update`
+
+that command may need to be run as sudo: `sudo su` - hit Enter, run the `wget` command above, and type `exit` to exit super user mode (you'll learn more about this during the webinar!)
+
 ### MediaInfo
 
 MediaInfo displays structured technical metadata from a variety of audiovisual media filetypes, everything from sample rates to listing subtitle tracks
