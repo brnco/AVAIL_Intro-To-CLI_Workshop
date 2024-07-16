@@ -1,0 +1,9 @@
+Outline
+
+0. Tabs to have open before you start
+https://pypi.org
+https://docs.python.org/3/library/pathlib.html
+https://pyairtable.readthedocs.io/en/stable/index.html
+https://github.com/gtalarico/pyairtable
+https://chatgpt.com/
+
